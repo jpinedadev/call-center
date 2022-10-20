@@ -1,0 +1,23 @@
+@mixin btn-base{
+	padding: 0.5rem 0.8rem;
+	
+}
+
+$color-background:#FBFBFB;
+$color-text:#303030;
+
+.button{
+	@include btn-base();
+    border:none;
+    border-radius:5px;
+    margin:2px;
+    background:#ECECED;
+    &:hover{
+        cursor:pointer;
+        background:#D0D0D0;
+    }
+}
+
+.pesta{
+    background:$color-background;
+}

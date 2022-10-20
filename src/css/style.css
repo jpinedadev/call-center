@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+.button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+  background: #ECECED;
+}
+.button:hover {
+  cursor: pointer;
+  background: #D0D0D0;
+}
+
+.pesta {
+  background: #FBFBFB;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1em;
+}
+
+body {
+  background-color: #FBFBFB;
+}
+body .contenedor .header {
+  background: #373D49;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+body .contenedor .body .menu-area .menu-information .menu-calling {
+  background: #08620D;
+  color: white;
+  padding: 0.3rem;
+}
+body .contenedor .body .workspace-area {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 50px 100px 100px;
+  grid-template-areas: "a a a" "b d d" "c d d";
+  grid-gap: 10px;
+}
+body .contenedor .body .workspace-area .caja-llamada {
+  background: #CDCDCD;
+  padding: 1rem;
+  grid-area: a;
+}
+body .contenedor .body .workspace-area .caja-informacion {
+  grid-area: b;
+}
+body .contenedor .body .workspace-area .caja-dialogo {
+  grid-area: c;
+}
+body .contenedor .body .workspace-area .caja-formularios {
+  grid-area: d;
+}
+body .contenedor .body .workspace-area .caja-formularios .formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+body .contenedor .body .workspace-area .caja-formularios .formulario .formulario-input input {
+  margin-bottom: 5px;
+  width: 25rem;
+}
+
+/*Media Querys*/
+
+/*# sourceMappingURL=style.css.map */
